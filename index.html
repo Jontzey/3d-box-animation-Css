@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body style="height: 100vh; margin: 0; display: flex; flex-direction: column; align-items: center;">
+    <div class="boxInfo" style="
+       transform: translate(0%,180%);">
+        <h3 style="font-size: 1em;">3d space + animation</h3>
+    </div>
+    <div class="boxInfo" style="
+       transform: translate(0%,155%); width: 600px !important;">
+        <h3 style="font-size: 1em;">Css:</h3>
+        <ul>
+            <li>perspective: (Value)px;</li>
+            <li>transform: rotateY(0deg), rotateX(0deg), rotateZ(0deg);</li>
+            <li>transform-style: preserve-3d;</li>
+            <li>transform: translate3d(0px,0px,0px)rotateY(0deg) rotateX(0deg) rotateZ(0deg);</li>
+            <li>position: (Value)</li>
+        </ul>
+    </div>
+    <div class="container">
+        <div class="element">
+            <div class="front">front</div>
+            <div class="left">left</div>
+            <div class="right">right</div>
+            <div class="back">back</div>
+        </div>
+
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
